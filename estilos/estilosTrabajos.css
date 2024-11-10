@@ -1,0 +1,52 @@
+.presentation{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.main-trabajos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    padding: 20px;
+    gap: 5px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.paquete{
+    height: 800px;
+    max-width: 44%;
+    object-fit: contain;
+}
+
+.fabula-main{
+    flex-direction: column;
+}
+
+.saltoReducido{
+    height: auto;
+    margin-top: 40px;
+}
+
+
+@media (max-width:1250px){
+    .paquete{
+        height: 400px;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .saltoReducido{
+        height: auto;
+    }
+
+    .presentation{
+        margin-top: 2%;
+        width: 90%;
+    }
+}
+
