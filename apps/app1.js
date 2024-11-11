@@ -17,7 +17,9 @@
 
     emailjs.send(serviceID, templateID, params)
       .then(response => {
-        alert('Correo enviado correctamente', response.status, response.text);
+        document.getElementById('user_name').value = "",
+        document.getElementById('user_email').value = "",
+        document.getElementById('message').value = ""
       }, error => {
         alert('Error al enviar el correo', error);
       });
