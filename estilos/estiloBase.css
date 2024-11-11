@@ -21,7 +21,8 @@ body{
     width: 100%;
     height: 100%;
     color: rgb(21, 21, 21);
-    overflow-x: hidden
+    overflow-x: hidden;
+    user-select: none;
 }
 
 header {
@@ -38,6 +39,23 @@ header *{
     color: rgb(21, 21, 21);
     text-decoration: none;
     font-family: Helvetica, sans-serif;
+}
+
+.Lorena{
+    display: flex;
+    margin-left: auto;
+}
+
+.Lorena p{
+    font-family: Poppins;
+    font-weight: 200;
+    margin-left: 0px;
+    font-size: 68%;
+}
+
+.logoHeader{
+    width: 15%;
+    height: 15%;
 }
 
 nav{
@@ -80,7 +98,7 @@ main{
 
 .presentation .contenedor-logo{
     border-radius: 60%;
-    background-color: rgb(255, 235, 235);
+    /* background-color: rgb(255, 235, 235); */
     width: 18%;
     aspect-ratio: 1;
     margin-top: -15%;
@@ -89,8 +107,9 @@ main{
 }
 
 .img-presentation{
-    width: 100%;
-    margin-top: -20%;
+    width: 90%;
+    margin-top: 0%;
+    margin-left: 0%;
 }
 
 
@@ -219,13 +238,31 @@ footer{
         padding: 6px;
     }
 
+    .Lorena{
+        display: flex;
+        margin-left:150px;
+    }
+    
+    .Lorena p{
+        font-family: Poppins;
+        font-weight: 200;
+        margin-left: 0px;
+        font-size: 48%;
+    }
+    
+    .logoHeader{
+        width: 40px;
+        height: 40px;
+    }
+    
+
     nav{
         position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: rgb(255, 183, 183);
+        background-color: rgb(255, 171, 0);
         width: 100vw;
         z-index: 2;
         top: 0%;
