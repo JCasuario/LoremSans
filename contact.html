@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estiloBase.css">
+    <link rel="stylesheet" href="estilos/estilocontacto.css">
+    <link rel="icon" href="imgs/loguito.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <title>LoremSans</title>
+</head>
+<body>
+
+    <header>
+        <input type="checkbox" id="menu-check">
+        <label for="menu-check" id="menu">
+                <span id="menu-abrir">&#9776;</span>
+                <span id="menu-cerrar">X</span>
+        </label>
+        <nav>
+            <a >TRABAJOS</a>
+            <a href="">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <p class="presentation">¿Alguna duda? No dudes en ponerte en contacto!</p>
+        <form id="contact-form">
+        <input type="text" id="user_name" name="user_name" placeholder="Tu nombre" required><br><br>
+        <input type="email" id="user_email" name="user_email" placeholder="Tu correo electrónico" required><br><br>
+        <textarea id="message" name="message" placeholder="Tu mensaje" required></textarea><br><br>
+        <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>© Lorena Sanz. Imágenes registradas y protegidas por derechos de autor.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="apps/app1.js"></script>
+</body>
+</html>
