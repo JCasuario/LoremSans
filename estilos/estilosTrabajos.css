@@ -1,5 +1,5 @@
 .presentation{
-    margin-top: 2%;
+    margin-top: 0%;
     width: 100%;
 }
 
@@ -32,6 +32,25 @@
     margin-top: 40px;
 }
 
+.verde{
+    color: rgb(54, 116, 49);
+}
+
+.negro{
+    color:rgb(25, 25, 25);
+}
+
+.azul{
+    color: rgb(63, 75, 153);
+}
+
+.rosa{
+    color:rgb(255,157,154);
+}
+
+.amarillo{
+    color: rgb(122,75,18);
+}
 
 @media (max-width:1250px){
     .paquete{
@@ -47,6 +66,7 @@
     .presentation{
         margin-top: 2%;
         width: 90%;
+        margin-left: 2%;
     }
 }
 

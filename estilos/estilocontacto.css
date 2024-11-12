@@ -10,7 +10,7 @@ form{
     border: 1px solid black;
     padding: 15px;
     border-radius: 15px;
-    width: 40%;
+    width: 55%;
 }
 
 input{
@@ -38,4 +38,10 @@ button{
 
 button:hover{
     border: solid 2px rgb(42, 42, 42);
+}
+
+@media (max-width:1000px){
+    form{
+        width: 80%;
+    }
 }

@@ -12,7 +12,6 @@ font-weight: 400;
 font-style: normal;
 }
 
-
 body{
     display: flex;
     flex-direction: column;
@@ -23,6 +22,10 @@ body{
     color: rgb(21, 21, 21);
     overflow-x: hidden;
     user-select: none;
+}
+
+a{
+    color: rgb(17, 17, 17);
 }
 
 header {
@@ -89,11 +92,26 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    padding: 5px;
+    font-weight: 200;
+    /* margin-left: 8px; */
     font-family: "Poppins", sans-serif;
+    margin-top: 12%;
     width: 60%;
-    margin-top: 8%;
+}
+
+.presentation2{
+    color: rgb(48, 121, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3vw;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Helvetica;
+    width: 100%;
+    margin-top: 4%;
 }
 
 .presentation .contenedor-logo{
@@ -125,7 +143,7 @@ main{
 }
 
 .img-paquete{
-    width: 33.33%;
+    width: 50%;
     position: relative;
     /* margin-right: 0.4%; */
 }
@@ -139,6 +157,10 @@ main{
     font-family: Poppins;
     font-weight: 300;
 }
+.recolocacion{
+    left: 40%
+}
+
 
 .galeria-img{
     width: 100%;
@@ -191,6 +213,12 @@ footer{
     animation: entrada 2.5s ease-in forwards;
 }
 
+.ficha-tecnica{
+    font-family: Poppins;
+    align-self: center;
+    margin-top: 0px;
+}
+
 @keyframes entrada{
     from{opacity: 1;}
     to{opacity: 0;
@@ -203,11 +231,16 @@ footer{
     }
 
     .presentation{
-        font-size: 2.3vw;
+        font-size: 1.4vw;
+    }
+
+    .presentation2{
+        font-size: 2vw;
+        margin-bottom: 0;
     }
 }
 
-@media (max-width:1050px){
+@media (max-width:1100px){
     header{
         justify-content: flex-end;
     }
@@ -247,6 +280,7 @@ footer{
         font-family: Poppins;
         font-weight: 200;
         margin-left: 0px;
+        margin-right: 8PX;
         font-size: 48%;
     }
     
@@ -283,8 +317,12 @@ footer{
         left: 27%;
     }
 
+    .presentation2{
+        font-size: 3.2vw;
+    }
+
     .presentation{
-        font-size: 4vw;
+        font-size: 2.4vw;
     }
 
     .presentation .contenedor-logo{
@@ -295,6 +333,10 @@ footer{
     .galeria{
         box-sizing: border-box;
         padding: 5px;
+    }
+
+    .recolocacion{
+        left: 41%
     }
 
     footer{
