@@ -1,0 +1,24 @@
+.presentation{
+    margin-top: 0%;
+    font-size: 1em;
+    margin-bottom: 210px;
+}
+
+.aboutMeImg{
+    width: 40%;
+}
+
+footer{
+    margin-top: auto;
+}
+
+@media (max-width:1200px){
+    .aboutMeImg{
+        width: 60%;
+    }
+
+    .presentation{
+        font-size: 0.8em;
+        margin-bottom: 30px;
+    }
+}
