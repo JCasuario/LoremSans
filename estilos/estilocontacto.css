@@ -40,6 +40,10 @@ button:hover{
     border: solid 2px rgb(42, 42, 42);
 }
 
+.presentation{
+    margin-top: 40px;
+}
+
 @media (max-width:1000px){
     form{
         width: 80%;
