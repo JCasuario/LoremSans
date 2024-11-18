@@ -143,8 +143,9 @@ main{
 }
 
 .img-paquete{
-    width: 50%;
+    width: 48%;
     position: relative;
+    margin: 0.6%;
     /* margin-right: 0.4%; */
 }
 
