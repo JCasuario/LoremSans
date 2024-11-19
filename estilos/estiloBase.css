@@ -146,20 +146,23 @@ main{
     width: 48%;
     position: relative;
     margin: 0.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* margin-right: 0.4%; */
 }
 
 .titulo{
     position: absolute;
-    top: 43%;
-    left: 30%;
+    /* top: 43%;
+    left: 30%; */
     z-index: -10;
     pointer-events: none;
     font-family: Poppins;
     font-weight: 300;
 }
 .recolocacion{
-    left: 40%
+    /* left: 40% */
 }
 
 
@@ -315,7 +318,7 @@ footer{
 
     .titulo{
         font-size: 27px;
-        left: 27%;
+        /* left: 27%; */
     }
 
     .presentation2{
@@ -337,7 +340,7 @@ footer{
     }
 
     .recolocacion{
-        left: 39%
+        /* left: 39% */
     }
 
     footer{
