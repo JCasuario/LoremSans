@@ -152,6 +152,16 @@ main{
     /* margin-right: 0.4%; */
 }
 
+.paquete-resize{
+    width: 50%;
+    position: relative;
+    margin: 0.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 0.4%; */
+}
+
 .titulo{
     position: absolute;
     /* top: 43%;
@@ -223,6 +233,10 @@ footer{
     margin-top: 0px;
 }
 
+.rotar90{
+    transform: rotate(90deg);
+}
+
 @keyframes entrada{
     from{opacity: 1;}
     to{opacity: 0;
@@ -232,6 +246,10 @@ footer{
 @media (max-width:1600px){
     .img-paquete{
         width: 50%;
+    }
+
+    .paquete-resize{
+        width: 56%;
     }
 
     .presentation{
