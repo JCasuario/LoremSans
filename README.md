@@ -1,1 +1,1 @@
-Simple page for Lorena Sanz Engraving artist.
+Simple page for Lorena Sanz engraving artist.
